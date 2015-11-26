@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 7c511cf7296a90d4b80c28795932cfed
+timeCreated: 1448209952
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Eule_Body
+    100002: eye_left
+    100004: eye_right
+    100006: ik_left_foot
+    100008: ik_left_hand
+    100010: ik_right_foot
+    100012: ik_right_hand
+    100014: joint1
+    100016: joint2
+    100018: joint3
+    100020: joint4
+    100022: joint5
+    100024: joint6
+    100026: joint7
+    100028: joint8
+    100030: jt_chest
+    100032: jt_head_1
+    100034: jt_head_2
+    100036: jt_hip_1
+    100038: jt_hip_2
+    100040: jt_hip_3
+    100042: jt_jaw
+    100044: jt_left_arm_1
+    100046: jt_left_arm_2
+    100048: jt_left_foot_1
+    100050: jt_left_foot_2
+    100052: jt_left_hand_1
+    100054: jt_left_hand_2
+    100056: jt_left_leg_1
+    100058: jt_left_leg_2
+    100060: jt_left_wing_1
+    100062: jt_left_wing_2
+    100064: jt_main
+    100066: jt_right_arm_1
+    100068: jt_right_arm_2
+    100070: jt_right_foot_1
+    100072: jt_right_foot_2
+    100074: jt_right_hand_1
+    100076: jt_right_hand_2
+    100078: jt_right_leg_1
+    100080: jt_right_leg_2
+    100082: jt_spine_1
+    100084: jt_spine_1 1
+    100086: jt_tail_1
+    100088: jt_tail_2
+    100090: jt_tail_3
+    100092: jt_tail_4
+    100094: jt_tail_5
+    100096: //RootNode
+    400000: Eule_Body
+    400002: eye_left
+    400004: eye_right
+    400006: ik_left_foot
+    400008: ik_left_hand
+    400010: ik_right_foot
+    400012: ik_right_hand
+    400014: joint1
+    400016: joint2
+    400018: joint3
+    400020: joint4
+    400022: joint5
+    400024: joint6
+    400026: joint7
+    400028: joint8
+    400030: jt_chest
+    400032: jt_head_1
+    400034: jt_head_2
+    400036: jt_hip_1
+    400038: jt_hip_2
+    400040: jt_hip_3
+    400042: jt_jaw
+    400044: jt_left_arm_1
+    400046: jt_left_arm_2
+    400048: jt_left_foot_1
+    400050: jt_left_foot_2
+    400052: jt_left_hand_1
+    400054: jt_left_hand_2
+    400056: jt_left_leg_1
+    400058: jt_left_leg_2
+    400060: jt_left_wing_1
+    400062: jt_left_wing_2
+    400064: jt_main
+    400066: jt_right_arm_1
+    400068: jt_right_arm_2
+    400070: jt_right_foot_1
+    400072: jt_right_foot_2
+    400074: jt_right_hand_1
+    400076: jt_right_hand_2
+    400078: jt_right_leg_1
+    400080: jt_right_leg_2
+    400082: jt_spine_1
+    400084: jt_spine_1 1
+    400086: jt_tail_1
+    400088: jt_tail_2
+    400090: jt_tail_3
+    400092: jt_tail_4
+    400094: jt_tail_5
+    400096: //RootNode
+    4300000: Eule_Body
+    4300002: eye_right
+    4300004: eye_left
+    7400000: walk
+    7400002: idle
+    7400004: jump
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Eule_Body
+    13700002: eye_left
+    13700004: eye_right
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eule_Body
+        weight: 1
+      - path: Eule_Body/eye_left
+        weight: 1
+      - path: Eule_Body/eye_right
+        weight: 1
+      - path: ik_left_foot
+        weight: 1
+      - path: ik_left_hand
+        weight: 1
+      - path: ik_right_foot
+        weight: 1
+      - path: ik_right_hand
+        weight: 1
+      - path: jt_main
+        weight: 1
+      - path: jt_main/jt_hip_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2/joint3
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6/joint7
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2/jt_left_hand_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2/jt_left_hand_1/jt_left_hand_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2/jt_right_hand_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2/jt_right_hand_1/jt_right_hand_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_head_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_head_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_jaw
+        weight: 1
+      - path: jt_main/jt_left_leg_1
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2/jt_left_foot_1
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2/jt_left_foot_1/jt_left_foot_2
+        weight: 1
+      - path: jt_main/jt_right_leg_1
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2/jt_right_foot_1
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2/jt_right_foot_1/jt_right_foot_2
+        weight: 1
+      - path: jt_main/jt_tail_1
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3/jt_tail_4
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3/jt_tail_4/jt_tail_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 12
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eule_Body
+        weight: 1
+      - path: Eule_Body/eye_left
+        weight: 1
+      - path: Eule_Body/eye_right
+        weight: 1
+      - path: ik_left_foot
+        weight: 1
+      - path: ik_left_hand
+        weight: 1
+      - path: ik_right_foot
+        weight: 1
+      - path: ik_right_hand
+        weight: 1
+      - path: jt_main
+        weight: 1
+      - path: jt_main/jt_hip_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2/joint3
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6/joint7
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2/jt_left_hand_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2/jt_left_hand_1/jt_left_hand_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2/jt_right_hand_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2/jt_right_hand_1/jt_right_hand_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_head_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_head_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_jaw
+        weight: 1
+      - path: jt_main/jt_left_leg_1
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2/jt_left_foot_1
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2/jt_left_foot_1/jt_left_foot_2
+        weight: 1
+      - path: jt_main/jt_right_leg_1
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2/jt_right_foot_1
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2/jt_right_foot_1/jt_right_foot_2
+        weight: 1
+      - path: jt_main/jt_tail_1
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3/jt_tail_4
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3/jt_tail_4/jt_tail_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Eule_Body
+        weight: 1
+      - path: Eule_Body/eye_left
+        weight: 1
+      - path: Eule_Body/eye_right
+        weight: 1
+      - path: ik_left_foot
+        weight: 1
+      - path: ik_left_hand
+        weight: 1
+      - path: ik_right_foot
+        weight: 1
+      - path: ik_right_hand
+        weight: 1
+      - path: jt_main
+        weight: 1
+      - path: jt_main/jt_hip_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2/joint3
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_1/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6/joint7
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_chest/jt_left_wing_2/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2/jt_left_hand_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_left_arm_1/jt_left_arm_2/jt_left_hand_1/jt_left_hand_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2/jt_right_hand_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_right_arm_1/jt_right_arm_2/jt_right_hand_1/jt_right_hand_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_head_1
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_head_2
+        weight: 1
+      - path: jt_main/jt_hip_1/jt_hip_2/jt_hip_3/jt_spine_1/jt_spine_1 1/jt_jaw
+        weight: 1
+      - path: jt_main/jt_left_leg_1
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2/jt_left_foot_1
+        weight: 1
+      - path: jt_main/jt_left_leg_1/jt_left_leg_2/jt_left_foot_1/jt_left_foot_2
+        weight: 1
+      - path: jt_main/jt_right_leg_1
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2/jt_right_foot_1
+        weight: 1
+      - path: jt_main/jt_right_leg_1/jt_right_leg_2/jt_right_foot_1/jt_right_foot_2
+        weight: 1
+      - path: jt_main/jt_tail_1
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3/jt_tail_4
+        weight: 1
+      - path: jt_main/jt_tail_1/jt_tail_2/jt_tail_3/jt_tail_4/jt_tail_5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
